@@ -1,0 +1,2 @@
+export ZEBM_DB_CONF_DIR=/root/ZebOS10/ZebOS/platform/linux/bin/cml_utility
+export ZEBM_BIN_DIR=/root/ZebOS10/ZebOS/platform/linux/bin
