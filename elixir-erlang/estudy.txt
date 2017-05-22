@@ -1,0 +1,13 @@
+erlang:halt().  => to exit the erlang shell directory
+init:stop().    => to exit the erlang shell after all OTP app resource closed
+q().            => call init:stop().
+
+@spec code:get_path() => [load_paths]
+@spec code:add_patha(Dir) => true | {error, bad_dirercxtory}
+@spec code:add_pathz(Dir) => true | {error, bad_dirercxtory}
+
+erlang shell add path
+> erl -pa Dir1 -pa Dir2 -pz Dir3 -pz Dir4 ...
+
+erlang help
+erl -man [cmd/module]
