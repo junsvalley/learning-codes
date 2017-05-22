@@ -1,0 +1,6 @@
+Viewing contributions on your profile page
+
+Your GitHub profile shows off your most popular repositories and repositories you've worked on recently, as well as a graph of your repository contributions over the past year.
+
+Your contribution graph shows activity from public repositories. You can choose to show activity from both public and private repositories, with specific details of your activity in private repositories anonymized. For more information, see "Publicizing or hiding your private contributions on your profile".
+

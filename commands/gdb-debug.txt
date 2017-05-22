@@ -1,0 +1,103 @@
+/**************************************  
+ *
+ *  useful debug commands
+ *
+ **************************************/
+
+info/i  ...
+info breakpoints
+info stack           -> showing current stack
+info args            -> showing the arguments
+info variables       -> showing all vars with address
+info address <var>   -> showing var address
+info frame
+frame/f 
+
+backtrace/bt
+
+delete breakpoints   -> delete all
+delete 5 
+delete 1-10          -> delete range
+
+
+list/l	
+list <line number>   -> list code since <line number>
+list <func name>     -> list func code
+
+next/n
+print/p
+quit/q
+step/s               -> excute next line, if function then enter
+
+set <var>            -> set new value for the variable
+
+start                ->	start like command (run/r), but stop at the first line of main function
+finish               -> running til the return of this function, then stop
+
+
+
+info threads         -> showing the all thread IDs
+
+thread ID            -> switch to thread ID to run
+thread apply ID1 ID2 command  
+thread apply all command 
+
+thread apply all bt  -> check all thread's backtrace
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

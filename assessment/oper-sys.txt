@@ -1,0 +1,115 @@
+[root@gufeng-host wconfd]# type confd
+confd is /usr/local/confd/bin/confd
+[root@gufeng-host wconfd]# less wconfd_common.c
+[root@gufeng-host wconfd]# time ls
+SConscript        wconfd_actions.h  wconfd.c      wconfd_cdb.h     
+real    0m0.004s
+user    0m0.001s
+sys     0m0.002s
+[gufeng@gufeng-host dev]$ file stderr
+stderr: symbolic link to `/proc/self/fd/2'
+
+[gufeng@gufeng-host dev]$ stat urandom
+  File: ¡®urandom¡¯
+  Size: 0               Blocks: 0          IO Block: 4096   character special 
+file
+
+Device: 5h/5d   Inode: 3813        Links: 1     Device type: 1,9
+Access: (0666/crw-rw-rw-)  Uid: (    0/    root)   Gid: (    0/    root)
+Context: system_u:object_r:urandom_device_t:s0
+Access: 2016-03-31 20:44:25.671998818 +0800
+Modify: 2016-03-31 20:44:25.671998818 +0800
+Change: 2016-03-31 20:44:25.671998818 +0800
+ Birth: -
+[root@gufeng-host wconfd]# which confd
+/usr/local/confd/bin/confd
+[root@gufeng-host wconfd]# whereis confd
+confd: /usr/local/confd6.0 /usr/local/confd /usr/local/confd/bin/confd
+[root@gufeng-host wconfd]# locate wconfd_common.c
+/root/Qin-dev/management-plane/lib/cfgmgr-lib/wconfd/wconfd_common.c
+/root/flexbng-dev/management-plane/lib/cfgmgr-lib/wconfd/wconfd_common.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
