@@ -1,0 +1,22 @@
+grep total_vm /var/log/*
+--------------------------------------------------------------------------
+Nov 24 07:16:33 all-1-1 kernel: [ pid ]   uid  tgid total_vm      rss nr_ptes swapents oom_score_adj name
+Nov 24 07:16:33 all-1-1 kernel: [13863]     0 13863   994660   609161    1254        0             0 gsmonitor
+Nov 24 07:16:33 all-1-1 kernel: [16295]    89 16295    23026      271      45        0             0 pickup
+Nov 24 07:16:33 all-1-1 kernel: [17321]     0 17321    35054      371      69        0             0 sshd
+Nov 24 07:16:33 all-1-1 kernel: [17322]    74 17322    20995      237      42        0             0 sshd
+Nov 24 07:16:33 all-1-1 kernel: [17353]     0 17353    35054      341      70        0             0 sshd
+Nov 24 07:16:33 all-1-1 kernel: [17354]    74 17354    20995      246      41        0             0 sshd
+Nov 24 07:16:33 all-1-1 kernel: [17355]     0 17355   135056     3051      35        0             0 confd
+Nov 24 07:16:33 all-1-1 kernel: Out of memory: Kill process 13863 (gsmonitor) score 295 or sacrifice child
+Nov 24 07:16:33 all-1-1 kernel: Killed process 13863 (gsmonitor) total-vm:3978640kB, anon-rss:2436644kB, file-rss:0kB
+--------------------------------------------------------------------------
+pid                   The process ID.
+uid                   User ID.
+tgid                  Thread group ID.
+total_vm              Virtual memory use (in 4 kB pages)
+rss                   Resident memory use (in 4 kB pages)
+nr_ptes               Page table entries
+swapents              Swap entries
+oom_score_adj         Usually 0; a lower number indicates the process will
+                      be less likely to die when the OOM killer is invoked.
